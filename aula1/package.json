@@ -1,0 +1,25 @@
+{
+  "name": "aula1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exercicio1": "npx ts-node ./src/exercicio1",
+    "exercicio2": "npx ts-node ./src/exercicio2",
+    "exercicio3": "npx ts-node ./src/exercicio3",
+    "exercicio4": "npx ts-node ./src/exercicio4",
+    "exercicio5": "npx ts-node ./src/exercicio5",
+    "exercicio6": "npx ts-node ./src/exercicio6",
+    "exercicio7": "npx ts-node ./src/exercicio7",
+    "exercicio8": "npx ts-node ./src/exercicio8",
+    "exercicio9": "npx ts-node ./src/exercicio9",
+    "exercicio10": "npx ts-node ./src/exercicio10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
