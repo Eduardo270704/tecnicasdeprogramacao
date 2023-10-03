@@ -1,7 +1,10 @@
-const a = ["VW", "Gol"];
-const b = ["Fiat", "Uno"];
-const c = ["GM", "Corsa"];
+import Carro from "./exercicio4"
 
-console.log(a[0], a[1]);
-console.log(b[0], b[1]);
-console.log(c[0], c[1]);
+const carros = [] as Carro[];
+carros[0] = new Carro("VW", "Gol");
+carros[1] = new Carro("Fiat", "Uno");
+carros[2] = new Carro("GM", "Corsa");
+
+console.log(carros[0]);
+console.log(carros[1]);
+console.log(carros[2]);

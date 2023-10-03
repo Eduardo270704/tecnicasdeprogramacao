@@ -1,5 +1,10 @@
 class Carro {
-    constructor(private _marca: string, private _modelo:string){}
+    private _marca: string;
+    private _modelo: string;
+    constructor(_marca: string, _modelo: string) {
+        this._marca = _marca;
+        this._modelo = _modelo;
+    }
     public get marca() {
         return this._marca
     }
@@ -8,7 +13,7 @@ class Carro {
     }
 }
 
-const carro = new Carro("VW", "Gol");
-console.log(carro);
+//const carro = new Carro("VW", "Gol");
+//console.log(carro);
 
-export default {}
+export default Carro;
